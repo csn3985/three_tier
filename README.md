@@ -17,7 +17,7 @@
 
 - Pull this repository
 
-`git clone https://github.com/jarrettbranch/three_tier.git`
+`git clone https://github.com/three_tier.git`
 
 - Build the containers
 
