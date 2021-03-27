@@ -17,7 +17,7 @@
 
 - Pull this repository
 
-`git clone https://github.com/your user name/three_tier.git`
+`git clone https://github.com/csn3985/three_tier.git`
 
 - Build the containers
 
