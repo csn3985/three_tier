@@ -1,4 +1,4 @@
-CREATE DATABASE courses
+CREATE DATABASE courses;
 USE courses;
 CREATE TABLE courses (ID INT(30), NAME VARCHAR(20), RATING INT(20), NUMRATINGS INT(20), COMMENTS VARCHAR(10000));
 INSERT INTO courses VALUES(1, 'CS150', 2, 4, 'comment1: This was a good class');
