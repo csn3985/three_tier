@@ -1,4 +1,4 @@
-import mysql.connector
+import mysql.connecto
 
 import flask
 from flask import request, jsonify
