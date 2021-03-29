@@ -11,4 +11,4 @@ RUN pip3 install mysql-connector-python
 
 COPY . ./
 
-CMD ["python3", "three_tier-bl.py"] #
+CMD ["python3", "three_tier-bl.py"] 
