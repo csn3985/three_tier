@@ -1,6 +1,6 @@
 FROM node:alpine
 
-WORKDIR /app
+WORKDIR /apt
 EXPOSE 5000
 
 RUN apk add --update --no-cache python3
