@@ -13,7 +13,7 @@ app.config["DEBUG"] = True
 @app.route('/api/v1/resources/courses/all', methods=['GET'])
 def api_all():
     # make a request to the database here.
-    # For now, use fake data.
+    # For now, use fake data for debug
 
     courses = []
     
