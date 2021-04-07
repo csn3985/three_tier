@@ -32,7 +32,7 @@ def get_course(id):
 
 @app.route('/api/v1/resources/courses/all', methods=['GET'])
 def api_all():
-    courses = []    1
+    courses = []    
     try:
         cnx = mysql.connector.connect(user='root', password='password', host='db', database='courses', port=3306);
         query = "SELECT * FROM courses"
