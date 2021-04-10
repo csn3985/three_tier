@@ -27,7 +27,7 @@ const Courses = ({ courses }) => {
 			</div>
 
 			<div className="card-body">
-			<h6 className="card-title">{course.rating}</h6>
+			<h6 className="card-title">Rating: {course.rating}/5</h6>
 			<h6 className="card-title">{course.numratings} ratings</h6>
 			<p className="card-title">{course.comments}</p>
 			</div>
