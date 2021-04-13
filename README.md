@@ -1,4 +1,5 @@
 # three_tier
+NOTE: If you are not running on EC2, You must specify the ip address of the system hosting the flask container. This can be accomplished by modifying `setup.sh`. This file sets up an environment variable to tell the ui (react application) what system to talk to.
 
 - Setup an AWS ec2 instance
 - Make sure you have configured both ports 3001 and 5001 to have inbound TCP traffic enabled.
